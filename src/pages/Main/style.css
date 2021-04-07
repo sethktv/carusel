@@ -1,0 +1,34 @@
+.carusel {
+animation: fromCarusel .8s ease-in-out;
+}
+.carusel_l {
+animation: fromCarusel_l .8s ease-in-out;
+}
+.carusel_r {
+animation: fromCarusel_r .8s ease-in-out;   
+}
+
+@keyframes fromCarusel  {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+@keyframes fromCarusel_l  {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+@keyframes fromCarusel_r  {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
